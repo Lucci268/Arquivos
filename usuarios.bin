@@ -1,0 +1,6 @@
+typedef struct {
+    int id;
+    char nome[MAX_USUARIO];
+    int filmes_favoritos[MAX_FAVORITOS];
+    int num_favoritos;
+} Usuario;

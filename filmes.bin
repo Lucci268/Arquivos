@@ -1,0 +1,5 @@
+typedef struct {
+    int id;
+    char filme[MAX_NOME_FILME];
+    char genero[MAX_GENERO_FILME];
+} Filme;
